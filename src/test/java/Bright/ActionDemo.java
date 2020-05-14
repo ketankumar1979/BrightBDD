@@ -1,6 +1,5 @@
 package Bright;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -40,13 +39,6 @@ public class ActionDemo {
         WebElement subelement = driver.findElement(By.linkText("Top"));
 
         action.moveToElement(subelement).click().perform();
-    }
-    @After
-    public void teardown(){
-        //driver.quit();
-        //driver.close();
-        //driver.close();
-
     }
 
 
