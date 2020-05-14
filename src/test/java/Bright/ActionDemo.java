@@ -44,6 +44,7 @@ public class ActionDemo {
     @After
     public void teardown(){
         //driver.quit();
+        //driver.close();
     }
 
 
