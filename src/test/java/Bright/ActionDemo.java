@@ -48,10 +48,7 @@ public class ActionDemo {
         //driver.quit();
         //driver.close();
         // this is to verify pull request
-        //ketan patel
-        //driver.close();
-       //ketan
-      //ketan patel - 2
+        
     }
 
 
